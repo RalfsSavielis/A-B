@@ -1,0 +1,195 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2761
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww11520\viewh8400\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 /* General Styles */\
+body \{\
+    margin: 0;\
+    font-family: Arial, sans-serif;\
+    color: #333;\
+\}\
+\
+a \{\
+    text-decoration: none;\
+    color: inherit;\
+\}\
+\
+.container \{\
+    width: 90%;\
+    margin: 0 auto;\
+\}\
+\
+img \{\
+    max-width: 100%;\
+    height: auto;\
+\}\
+\
+/* Header */\
+header \{\
+    background-color: #4CAF50;\
+    padding: 10px 0;\
+\}\
+\
+header .logo \{\
+    float: left;\
+\}\
+\
+header .logo img \{\
+    height: 50px;\
+\}\
+\
+header nav \{\
+    float: right;\
+\}\
+\
+header nav ul \{\
+    list-style: none;\
+    margin: 15px 0;\
+    padding: 0;\
+\}\
+\
+header nav ul li \{\
+    display: inline-block;\
+    margin-left: 20px;\
+\}\
+\
+header nav ul li a \{\
+    color: #fff;\
+    font-weight: bold;\
+\}\
+\
+header::after \{\
+    content: "";\
+    display: table;\
+    clear: both;\
+\}\
+\
+/* Graph Sections */\
+.graph-section \{\
+    background-color: #f4f4f4;\
+    padding: 20px 0;\
+\}\
+\
+.graph \{\
+    text-align: center;\
+\}\
+\
+.graph h2 \{\
+    color: #4CAF50;\
+    margin-bottom: 20px;\
+\}\
+\
+/* Main Content */\
+.columns \{\
+    display: flex;\
+    flex-wrap: wrap;\
+    margin: 40px 0;\
+\}\
+\
+.column \{\
+    flex: 1;\
+    padding: 20px;\
+    box-sizing: border-box;\
+\}\
+\
+.column:not(:last-child) \{\
+    border-right: 1px solid #ddd;\
+\}\
+\
+.column h1, .column h2, .column h3 \{\
+    color: #4CAF50;\
+\}\
+\
+.column p \{\
+    line-height: 1.6;\
+    margin-bottom: 20px;\
+\}\
+\
+.column img \{\
+    margin: 20px 0;\
+\}\
+\
+.icons \{\
+    display: flex;\
+    justify-content: space-between;\
+    margin-top: 20px;\
+\}\
+\
+.icon-item \{\
+    text-align: center;\
+\}\
+\
+.icon-item img \{\
+    width: 60px;\
+    height: 60px;\
+    margin-bottom: 10px;\
+\}\
+\
+.icon-item p \{\
+    margin: 0;\
+    font-weight: bold;\
+\}\
+\
+/* Button */\
+button \{\
+    background-color: #4CAF50;\
+    color: #fff;\
+    border: none;\
+    padding: 15px 25px;\
+    cursor: pointer;\
+    font-size: 16px;\
+    border-radius: 5px;\
+\}\
+\
+button:hover \{\
+    background-color: #45a049;\
+\}\
+\
+/* Footer */\
+footer \{\
+    background-color: #333;\
+    color: #fff;\
+    padding: 30px 0;\
+    margin-top: 40px;\
+\}\
+\
+.footer-content \{\
+    display: flex;\
+    flex-wrap: wrap;\
+    justify-content: space-between;\
+\}\
+\
+.contact-info, .social-media \{\
+    flex: 1;\
+    min-width: 200px;\
+    margin-bottom: 20px;\
+\}\
+\
+.contact-info p, .social-media p \{\
+    margin: 5px 0;\
+\}\
+\
+.social-media a \{\
+    margin-right: 15px;\
+\}\
+\
+.social-media img \{\
+    width: 30px;\
+    height: 30px;\
+\}\
+\
+footer p \{\
+    text-align: center;\
+    margin-top: 20px;\
+    font-size: 14px;\
+\}\
+\
+/* Responsive Styles */\
+@media screen and (max-width: 768px) \{\
+    header .logo, header nav \{\
+        float: none;\
+       \
+}
