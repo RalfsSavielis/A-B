@@ -11,7 +11,24 @@ header {
     color: #fff;
     padding: 1.5rem 0;
     text-align: center;
-    font-size: 1.5rem; /* Title size remains unchanged */
+    position: relative; /* Allows positioning of the logo */
+}
+
+.logo-container {
+    position: absolute;
+    top: 50%;
+    left: 1rem;
+    transform: translateY(-50%);
+}
+
+.logo {
+    width: 80px; /* Adjust logo size */
+    height: auto;
+}
+
+h1 {
+    margin: 0;
+    font-size: 2rem; /* Title size unchanged */
 }
 
 main {
@@ -30,7 +47,7 @@ main {
     gap: 2rem;
     align-items: flex-start;
     background-color: #fff;
-    padding: 1.5rem; /* Slightly increased padding for better spacing */
+    padding: 1.5rem;
     border-radius: 8px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
@@ -51,7 +68,7 @@ main {
 .stats h3 {
     margin-top: 1rem;
     color: #4CAF50;
-    font-size: 1.8rem; /* Further increased font size for section headers */
+    font-size: 1.8rem;
 }
 
 .stats ul {
@@ -61,15 +78,15 @@ main {
 }
 
 .stats ul li {
-    margin: 1rem 0; /* Increased margin for better spacing */
-    font-size: 1.5rem; /* Larger text for list items */
+    margin: 1rem 0;
+    font-size: 1.5rem;
 }
 
 footer {
     text-align: center;
-    padding: 1.5rem; /* Increased padding for footer */
+    padding: 1.5rem;
     background-color: #333;
     color: #fff;
     margin-top: 2rem;
-    font-size: 1.4rem; /* Larger footer text */
+    font-size: 1.4rem;
 }
