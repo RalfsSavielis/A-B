@@ -9,8 +9,9 @@ body {
 header {
     background-color: #4CAF50;
     color: #fff;
-    padding: 1rem 0;
+    padding: 1.5rem 0;
     text-align: center;
+    font-size: 1.5rem; /* Increased font size for the header */
 }
 
 main {
@@ -29,7 +30,7 @@ main {
     gap: 2rem;
     align-items: flex-start;
     background-color: #fff;
-    padding: 1rem;
+    padding: 1.5rem; /* Slightly increased padding for better spacing */
     border-radius: 8px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
@@ -50,6 +51,7 @@ main {
 .stats h3 {
     margin-top: 1rem;
     color: #4CAF50;
+    font-size: 1.4rem; /* Increased font size for section headers */
 }
 
 .stats ul {
@@ -59,14 +61,15 @@ main {
 }
 
 .stats ul li {
-    margin: 0.5rem 0;
-    font-size: 1rem;
+    margin: 0.7rem 0;
+    font-size: 1.2rem; /* Increased font size for list items */
 }
 
 footer {
     text-align: center;
-    padding: 1rem;
+    padding: 1.5rem; /* Increased padding for footer */
     background-color: #333;
     color: #fff;
     margin-top: 2rem;
+    font-size: 1.1rem; /* Slightly larger text in footer */
 }
