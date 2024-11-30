@@ -19,30 +19,36 @@ main {
 
 .ads-container {
     display: flex;
-    justify-content: space-around;
+    flex-direction: column;
     gap: 2rem;
 }
 
-.ad {
+.ad-section {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    align-items: flex-start;
     background-color: #fff;
-    border: 1px solid #ddd;
+    padding: 1rem;
     border-radius: 8px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    width: 45%;
-    text-align: center;
-    overflow: hidden;
 }
 
-.ad img {
+.ad,
+.graph,
+.stats {
+    flex: 1;
+}
+
+.ad img,
+.graph img {
     width: 100%;
     height: auto;
+    border-radius: 8px;
 }
 
-.stats {
-    padding: 1rem;
-}
-
-.stats h2 {
+.stats h3 {
+    margin-top: 1rem;
     color: #4CAF50;
 }
 
